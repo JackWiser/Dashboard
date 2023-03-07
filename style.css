@@ -20,13 +20,13 @@ nav {
     border: 2px solid black;
 }
 
-#games,
-#videos,
-#courses,
-#activity {
-    height: 50vh;
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
     width: 50vw;
-    margin: auto;
+    /* text-align: center; */
     border: 1px solid black;
 }
 
